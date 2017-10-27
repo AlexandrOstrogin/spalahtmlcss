@@ -1,0 +1,67 @@
+body{
+	font-family: Arial;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+header{
+	padding: 180px 0 70px; 
+	background: #69d2e7; 
+	color: white; 
+	text-align: center;
+	text-transform: uppercase;
+}
+header h1{
+	margin: 0px; 
+	margin-bottom: -2px; 
+	font-size: 60px;
+}
+header h5{
+	margin: 0px; 
+	font-size: 30px;
+}
+content{
+	background: white; 
+	padding: 50px 0px 350px 0px; 
+	font-size: 27px; 
+	color: black;
+}
+h3.content{
+	text-transform: uppercase; 
+	text-align: center;
+}
+content .hrstyle{
+	background: #fe6404; 
+	height: 5px;
+}
+content p{
+	font-size: 18px; 
+	text-align: left; 
+	margin: 0px 8px 8px 8px;
+}
+.table_container{
+	background: #f1f1f1; 
+	padding: 45px 45px 28px 45px; 
+	text-align: center;
+}
+table{
+	width: 100%;
+	cellpadding:0px;
+}
+footer{
+	background: #fa6900; 
+	padding: 20px 0px 200px 0px;
+}
+.p_container{
+	text-align: center;
+}
+.p_container p{
+	color: white; 
+	font-size: 18px;
+	text-align: center;
+	max-width: 600px;
+	display: inline-block;
+	padding: 0px 5% 0px 5%;
+}

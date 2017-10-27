@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+}
+input{
+	width: 100%; 
+	padding: 3px 3px 3px 6px; 
+	margin-bottom: 10px;
+	border-width: 0px;
+	font-size: 11px;
+}
+textarea{
+	height: 110px; 
+	width: 100%; 
+	padding: 3px 3px 3px 7px; 
+	margin-bottom: 10px;
+	border-width: 0px;
+	font-size: 11px;
+	resize:none;
+}
+header{
+	text-align: center;
+	margin: 80px 0px 18px 0px;
+}
+#content{
+	background: #e1e1e1; 
+	text-align: center; 
+	padding-bottom: 50px;
+}
+.container{
+	width: 300px;
+	text-align: center;
+	display: inline-block;
+}
+.dots{
+	width: 82px; 
+	border-bottom: dotted; 
+	border-width: 3px; 
+	display: inline-block; 
+	margin-top: 25px;
+}
+p{
+	text-transform: uppercase;
+	margin-top: 25px; 
+	text-align: left;
+}
+.p1{
+	font: normal 39px/10px Verdana,Arial;
+}
+.p2{
+	font: bold 11px/10px Verdana,Arial;
+}
+.code{
+	width: 100px; 
+	float: left; 
+	padding-left: 10px;
+}
+.send{
+	width: 80px; 
+	float: right; 
+	background: #535353; 
+	color: white;
+}
+footer{
+	margin: 25px 0px 17px 15%; 
+	font-size: 10px;
+}
