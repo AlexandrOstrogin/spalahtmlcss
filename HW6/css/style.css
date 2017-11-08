@@ -32,7 +32,7 @@
 	outline-color: #fef5fa;
 }
 .ui-accordion-header-active .ui-icon{
-	background-image: url(../js/images/ui-icons_444444_256x240.png);
+	background-image: url(../jquery-ui/images/ui-icons_444444_256x240.png);
 }
 .ui-accordion .ui-accordion-content{
 	padding-left: 1.1em;
