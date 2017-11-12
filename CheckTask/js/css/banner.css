@@ -1,0 +1,9 @@
+#banner_modul {height:400px; background:url(../images/bg_footer.png) bottom center no-repeat; padding-bottom:28px;}
+
+.banner {display:none; position:absolute; z-index:1;}
+
+.banner_nav_block {position:absolute; z-index:2; text-align:center; width:940px; margin-top:370px;}
+.banner_nav {width:15px; height:15px; background:url(images/key_6.png) no-repeat top left; display:inline-block; cursor:pointer; margin:0px 2px;}
+
+.activ {background-position:bottom;}
+

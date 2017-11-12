@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--<script src="js/jquery-1.11.3.js"></script>-->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $( function() {
+        $( "#datepicker" ).datepicker({
+          showButtonPanel: true
+        });
+      } );
+    </script>
+</head>
+<body>
+    <header></header>
+<section>
+    <div class="container">
+        <div class="header-text">change accaunt information</div>
+        <div class="form left">
+            <form name="new_email" action="#">
+                <div class="subheader-text">Change Email</div>
+                <label>Current Email</label>
+                <div class="email-text">flex@somewhere.com</div>
+
+                <label >New Email</label>
+                <input form="new_email" type="text" name="new_email_">
+
+                <label >Confirm New Email</label>
+                <input form="new_email" type="text" name="confirm_new_email">
+
+                <input form="new_email" type="submit" class="submit" value="Update Email">
+            </form>
+        </div>
+
+        <div class="form right">
+            <form name="new_password" action="#">
+                <div class="subheader-text">Change Password</div>
+                <label>Old Password</label>
+                <input form="new_password" type="text" name="old_password">
+
+                <label >New Password</label>
+                <input form="new_password" type="text" name="new_password_">
+
+                <label >Confirm New Password</label>
+                <input form="new_password" type="text" name="confirm_new_password">
+
+                <input form="new_password" type="submit" class="submit" value="Update Password">
+            </form>
+        </div>
+        <div style="clear:both;"></div>
+
+        <div class="header-text">billing information / contact information</div>
+        <div class="form left">
+            <form name="info" action="#">
+                <label >First Name</label>
+                <input form="info" type="text" name="first_name">
+
+                <label >Last Name</label>
+                <input form="info" type="text" name="last_name">
+                
+                <label >Street Adress</label>
+                <input form="info" type="text" name="adress1">
+                <input form="info" type="text" name="adress2">
+                
+                <label >Phone</label>
+                <input form="info" type="text" name="phone">    
+        </div>
+        <div class="form right">
+                <label>Last Name</label>
+                <input form="info" type="text" name="last_name1">
+
+                <label>Last Name</label>
+                <input form="info" type="text" name="last_name2">
+
+                <label >City</label>
+                <input form="info" type="text" name="city">
+
+                <label >State</label><br>
+                <input form="info" type="number" class="number" name="state"><br>
+
+                <label >Country</label><br>
+                <input form="info" type="number" class="number" name="country"><br>
+                
+                <label >Zip Code</label><br>
+                <input form="info" type="text" class="zip" name="zip">
+        </div>
+        <div style="clear:both;"></div>
+        
+        <div class="header-text">medical details</div>
+        <div class="form left">
+                <label >Doctors Name</label>
+                <input form="info" type="text" name="doc_name">
+
+                <label >Doctors Clinic Name</label>
+                <input form="info" type="text" name="doc_clinic_name">
+
+                <label >State</label><br>
+                <input form="info" type="number" class="number" name="state"><br>
+                
+                <label >Verification Website</label>
+                <input form="info" type="text" name="verification">
+                
+                <label>Recomendation Date</label><br>
+                <input form="info" type="text" class="zip" id="datepicker"><br>
+                <br>
+
+                <input form="info" type="submit" class="submit register" value="REGISTER">
+            </form>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="clear:both;"></div>
+
+    </div>
+</section>
+
+<footer>
+</footer>
+</body>
+</html>
+
+

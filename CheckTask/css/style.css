@@ -1,0 +1,148 @@
+
+body {
+  height: 100%;
+  background-color:#ccffcc;
+  background-image: url(../images/main-bg.png);
+  background-size: contain;
+  z-index:1;
+  margin: 0px;
+  color: #333333;
+}
+.container{
+  max-width:1170px;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  display:block;
+  margin: 5% 2% 0px 2%;
+  background-color: white;
+}
+footer{
+  height: 128px;
+  background-image: url(../images/bottom-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.header-text{
+  text-transform: uppercase;
+  background-color: #333333;
+  color: white;
+  line-height: 30px;
+  padding: 5px 10px 2px 12px;
+  font-size: 13px;
+  margin-top: 50px;
+}
+.subheader-text{
+  padding-top: 30px;
+  font-size: 14px;
+  font-style: italic;
+}
+.form{
+  display: inline-block;
+  width: 49%;
+  font-size: 13px;
+  padding-top: 20px;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+label{
+  display: inline-block;
+  padding-top: 20px;
+  white-space: nowrap;
+}
+.email-text{
+  color: gray;
+  font-size: 13;
+  font-style: italic;
+  padding-top: 10px;
+  line-height: 22px;
+}
+input{
+  width:100%;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999999;
+  margin-top: 5px;
+  height: 22px;
+}
+input:focus {
+    outline-width: 0;
+}
+.number{
+  width:70%;
+}
+.zip{
+  width:50%;
+}
+.submit{
+  background-color: #ffcc33;
+  padding: 2px 20px;
+  height: 22px;
+  width: auto;
+  text-align: right;
+  float: right;
+  border-radius: 0px;
+  margin-top: 24px;
+}
+.register{
+  float: left;
+}
+.ui-widget-content .ui-priority-primary{
+  color:green;
+  display:none;
+}
+.ui-widget-content .ui-priority-secondary{
+  text-align: right;
+  clear: both;
+}
+.ui-datepicker .ui-datepicker-buttonpane{
+  text-align: center;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+  float: unset!important;
+  border-width: 0px;
+  background-color: white;
+}
+.ui-widget-content {
+  border-top-width: 0px!important;
+}
+.ui-widget-content .ui-state-default{
+  border-width: 0px!important;
+  background-color: white!important;
+  border-radius: 3px!important;
+}
+.ui-widget-content .ui-state-highlight{
+  border-width: 0px!important;
+  background-color: #dddddd!important;
+}
+.ui-widget-content .ui-state-active{
+  border-width: 0px!important;
+  background-color: #a9ca44!important; 
+}
+.ui-datepicker th {
+  background-color: #dddddd!important;
+}
+.ui-widget-header{
+  background-color: #a9ca44!important; 
+  color: white!important;
+  font-weight: normal!important;
+}
+.ui-widget-header .ui-icon{
+  background-image: url(../images/arrow.png)!important;
+}
+.ui-icon-circle-triangle-e {
+  background-position: -16px 2px !important;
+}
+.ui-icon-circle-triangle-w {
+  background-position: 2px 2px !important;
+}
+.ui-widget-header .ui-state-hover{
+  background-color: #b4de35!important;
+}
