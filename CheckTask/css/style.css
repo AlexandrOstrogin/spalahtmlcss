@@ -104,14 +104,12 @@ input:focus {
 }
 .ui-datepicker .ui-datepicker-buttonpane{
   text-align: center;
+  border-top-width: 0px!important;
 }
 .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
   float: unset!important;
   border-width: 0px;
   background-color: white;
-}
-.ui-widget-content {
-  border-top-width: 0px!important;
 }
 .ui-widget-content .ui-state-default{
   border-width: 0px!important;
