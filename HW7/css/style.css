@@ -10,6 +10,9 @@ body{
 	font-family: GothamMedium;
 	text-transform: uppercase;
 }
+a {
+    text-decoration: none;
+}
 .container{
 	max-width:960px;
 	padding: 0px 0px;
@@ -109,12 +112,12 @@ div.layer1{
 	bottom: 0px;
 	left: 0px;
 	margin: 20px 22px;
-	padding: 18px 20px;
+	padding: 20px 20px 18px 20px;
 	text-transform: uppercase;
 	font-size: 25px;
 	background-image: url(../images/section12.jpg);
 	border-width: 0px;
-	color: white;
+	color: white;    
 }
 div.layer2{
 	width: 100%;
@@ -135,6 +138,7 @@ div.col21-sub1{
 	background-image: url(../images/section11.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+    position: relative;
 }
 div.col21-sub2{
 	width: 100%;
@@ -152,6 +156,7 @@ div.col22{
 	background-image: url(../images/section21.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+    position: relative;
 }
 div.col23{
 	width: 32%;
@@ -205,7 +210,7 @@ div.col23-sub2{
 	bottom: 0px;
 	left: 0px;
 	margin: 20px 22px;
-	padding: 18px 20px;
+	padding: 20px 20px 18px 20px;
 	text-transform: uppercase;
 	font-size: 25px;
 	background-image: url(../images/section12.jpg);
