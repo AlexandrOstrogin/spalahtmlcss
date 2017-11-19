@@ -284,18 +284,83 @@ img.lamp{
 	text-transform: none;
 	display: inline-block;
 }
+.slick-slide {
+    min-height: 310px !important;
+}
+.slick-prev:before {
+	font-family: FontAwesome!important;
+    content: '\f053' !important;
+}
+.slick-next:before {
+	font-family: FontAwesome!important;
+    content: '\f054' !important;
+}
+.slick-prev, .slick-next {
+    width: 60px !important;
+    height: 100% !important;
+    border-width: 0px !important;
+    border-style: outset !important;
+    border-color: buttonface !important;
+    border-image: initial !important;
+}
+.slick-prev:hover {
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+}
+.slick-next:hover {
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+}
+.slick-prev {
+    left: 0px !important;
+    z-index: 1000 !important;
+    transition: 0.2s ease-in-out;
+    opacity: 0.3;    
+    background-image: linear-gradient(to left, rgba(0,0,0,0.0001) 0, rgba(0,0,0,1.0) 100%)!important;
+}
+.slick-next {
+    right: 0px !important;
+    z-index: 1000 !important;
+    transition: 0.2s ease-in-out;
+    opacity: 0.3;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.0001) 0, rgba(0,0,0,1.0) 100%)!important;
+}
+.your-class{
+	height: 100%;
+	text-align: center !important;
+	line-height: 310px !important;
+}.carousel-frame{
+	vertical-align: middle !important;
+}
 footer{
 	height: 100px;
 	width: 100%;
 	background-image: url(../images/footer.jpg);
-	background-size: contain;
+	/*background-size: contain;*/
     background-repeat: no-repeat;
     background-position-y: bottom;
 }
 .footer-menu{
-	padding-top: 40px
+	padding-top: 40px;
+	font-size: 10px;
+	color: grey !important;
+	display: inline-block;
+	float: left;
 }
 .footer-menu .menu a{
-	font-size: 8px;
-	color: grey;
+	font-size: 10px;
+}
+.copyright{
+	text-transform: initial;
+}
+footer .menu li a {
+    color: grey;
+}
+.menu.lang{
+	float: right;
+	font-size: 10px;
+	padding-top: 40px
+}
+.menu.lang a{
+	font-size: 10px;
 }
