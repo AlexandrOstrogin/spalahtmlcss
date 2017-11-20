@@ -65,7 +65,7 @@ form .submit {
     width: 25px;
     height: 100%;
     cursor: pointer;
-    background: url(../images/check.jpg) 50% no-repeat;
+    background: url(../images/check.png) 50% no-repeat;
     opacity: 1.0;
     margin-right: 15px;
     border-width: 0px;
@@ -353,8 +353,9 @@ footer{
 .copyright{
 	text-transform: initial;
 }
-footer .menu li a {
+footer .menu li a, footer .menu li {
     color: grey;
+    padding-right: 0px;
 }
 .menu.lang{
 	float: right;
@@ -363,4 +364,45 @@ footer .menu li a {
 }
 .menu.lang a{
 	font-size: 10px;
+}
+.menu-lang{
+	width: 255px;
+    display: inline-block;
+}
+.div-email{
+	width: 350px;
+	display: inline-block;
+	float: right;
+	padding-top: 36px;
+	color: gray;
+	text-align: right;
+}
+form .input-email{
+	margin-right: 0px;
+	background-color: black;
+	border-style: solid;
+	position: relative;
+	top: -3px;
+	width: 188px;
+	font-size: 10px;
+	color: white;
+	border-width: 1px;
+	border-color: #303030;
+	padding: 9px 25px 9px 9px;
+	border-radius: 15px;
+}
+form .submit-email {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 25px;
+    cursor: pointer;
+    background: url(../images/check.png) 50% no-repeat;
+    opacity: 1.0;
+    border-width: 0px;
+    margin-right: 9px;
+}
+.submit-email:focus{
+	color: red;
+	background-color: red;
 }
