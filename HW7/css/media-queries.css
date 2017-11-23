@@ -23,7 +23,13 @@ div.col23-sub2 {
     margin-top: 0px;
 }
 footer{
-	display: none;
+	/*display: none;*/
+}
+.div-email{
+	padding-top: 0px;
+}
+.menu-lang {
+    float: right;
 }
 }
 
@@ -35,7 +41,14 @@ div.layer1 {
     position: absolute;
     top: 65px;
 }
-
+.menu-bottom{
+	position: relative;
+	top:-8px;
+}
+.lang{
+	position: relative;
+	top:-8px;
+}
 }
 /************************************************************************************
 smaller than 650

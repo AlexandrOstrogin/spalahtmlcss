@@ -338,7 +338,8 @@ footer{
 	background-image: url(../images/footer.jpg);
 	/*background-size: contain;*/
     background-repeat: no-repeat;
-    background-position-y: bottom;
+    background-position-y: 27px;
+    background-size: contain;
 }
 .footer-menu{
 	padding-top: 40px;
@@ -370,7 +371,7 @@ footer .menu li a, footer .menu li {
     display: inline-block;
 }
 .div-email{
-	width: 350px;
+	width: 310px;
 	display: inline-block;
 	float: right;
 	padding-top: 36px;
